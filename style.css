@@ -1,0 +1,139 @@
+#flag {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#section1 {
+    background-color: #00B5E2;
+    flex: 1;
+}
+
+#section2 {
+    background-color: #db1806;
+    flex:1;
+    position: relative;
+}
+
+#section3 {
+    background-color: #509E2F;
+    flex: 1;
+}
+
+#dot1 {
+    color:white;
+    font-size:28vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    flex:1
+}
+
+#dot2 {
+    color: #db1806;
+    font-size: 24vh;
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -50%); 
+    flex: 1;
+}
+
+#dot3 {
+    color: white;
+    font-size:10vh;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%); 
+    flex:1
+}
+
+#star1 {
+    color: white;
+    font-size:13vh;
+    position: absolute;
+    top: 45%;
+    left: 60%;
+    transform: translate(-50%, -50%); 
+    flex: auto;
+}
+
+#star2 {
+    color: white;
+    font-size:12vh;
+    position: absolute;
+    top: 27%;
+    left: 59%;
+    transform: translate(-50%, -50%); 
+    transform: rotate(30deg);
+    flex: auto;
+}
+
+#star3 {
+    color: white;
+    font-size:13vh;
+    position: absolute;
+    top: 31%;
+    left: 59%;
+    transform: translate(-50%, -50%); 
+    transform: rotate(75deg);
+    flex: auto;
+}
+
+#star4 {
+    color: white;
+    font-size:12vh;
+    position: absolute;
+    top: 36%;
+    left: 59%;
+    transform: translate(-50%, -50%); 
+    transform: rotate(125deg);
+    flex: auto;
+}
+
+#star5 {
+    color: white;
+    font-size:12vh;
+    position: absolute;
+    top: 40%;
+    left: 58%;
+    transform: translate(-50%, -50%); 
+    transform: rotate(165deg);
+    flex: auto;
+}
+
+#star6 {
+    color: white;
+    font-size:12vh;
+    position: absolute;
+    top: 38%;
+    left: 57%;
+    transform: translate(-50%, -50%); 
+    transform: rotate(220deg);
+    flex: auto;
+}
+
+#star7 {
+    color: white;
+    font-size:14vh;
+    position: absolute;
+    top: 30%;
+    left: 57%;
+    transform: translate(-50%, -50%); 
+    transform: rotate(270deg);
+    flex: auto;
+}
+
+#star8 {
+    color: white;
+    font-size:14vh;
+    position: absolute;
+    top: 27%;
+    left: 57%;
+    transform: translate(-50%, -50%); 
+    transform: rotate(320deg);
+    flex: auto;
+}
